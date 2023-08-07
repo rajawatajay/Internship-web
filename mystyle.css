@@ -1,0 +1,84 @@
+.nav{
+    
+    font-family: "Poppins", sans-serif;
+    position:static;
+    top: 0;
+    left: 50;
+    width: 75%;
+    padding: 15px 200px;
+    background: rgb(233, 190, 34);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+
+}
+.head{
+    font-style:italic;
+    margin-left: 500px;
+}
+img{
+    border: darkblue solid 2px;
+    font-size:xx-large;
+    
+
+}
+.test{
+    border: blue solid 2px;
+    border-width: 20px;
+    /* border top bottom left right width acc to need */
+    border-style: groove;
+     border-collapse:collapse;
+    padding: 50px;
+    outline: 20px green solid;
+   outline-offset: 20px;
+   margin-bottom: 70px;
+   margin-top: 70px;
+}
+    body{
+        background-color: silver;
+    }
+
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: bisque;
+        border-radius: 50% 20% 30% 10%;
+        border: 2px solid black;
+        /* transform: rotate(40deg); */
+    }
+    button{
+        margin-top: 20px;
+        background-color: palevioletred;
+        color: blue;
+        padding: 10px;
+        font-size:medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+       
+        
+    }
+    button:hover{
+        background-color: grey;
+        color: black;
+        height: 90px;
+        transition: all 2s;
+        /* we use transition scale: as well; */
+        transform: rotate(40deg);
+        /* we use rotatexyz axis */
+    }
+    .abut{
+        border: 1px solid blue;
+        margin-left: 10px;
+        background-color: aquamarine;
+        color: blueviolet;
+        text-decoration: none;
+        font-size: 20px;
+      
+        
+    }
+   /* body{
+    background-image: url(https://img.freepik.com/premium-photo/restaurant-cafe-coffee-shop-interior-with-people-abstract-defocused-blur-background_293060-3973.jpg);
+   background-size: cover;  
+} */
+

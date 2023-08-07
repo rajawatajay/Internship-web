@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <p><h1 class="reg">Registration Form</h1></p>
+    <div class="center_form">
+    <form style="background-color: bisque; padding:20px ;">
+        <label for="name">Name:   </label>
+        <input   type="text" id="name" placeholder="Enter your name" maxlength="">
+        <!-- readonly required disabled used in input -->
+        <br></br>
+        
+        <label for=" mail">Email Id:</label>
+        <input type="email" placeholder="Enter your id">
+        <br><br>
+
+        <label for="pass">Password</label>
+        <input type="Password" id="pass" placeholder="Enter Password">
+<!--input-id and label-for are same -->
+<br><br>
+<label for="mob">mobile number</label>
+<input type="tel" pattern="{0-9}{10}">
+<!-- multiple pattern used accordingly -->
+      
+    <br>
+        <br>
+        <!-- <input type="color">
+        <br> -->
+        <label for="DoB">DOB</label>
+        <input type="date" min="" max="">
+        <br><br>
+        <!-- <input type="datetime">
+        <br> -->
+        <!-- <input type="time">
+        <br> -->
+        <label for="month">Month</label>
+        <input type="month">
+        <br><br>
+        <label for="file">Attach file</label>
+        <input type="file" multiple accept="image/*">
+        <br><br>
+        <!-- <input type="hidden">
+        <br> -->
+        <!-- <input type="image" src="/148.jpg" style="height:20px;"> -->
+        <!-- image type used as submit button -->
+
+        
+
+        <!-- <br><br> -->
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+        
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+
+        <!-- <br><br>
+        <label for="male">male</label>
+        <input type="checkbox" value="male"> -->
+        <!-- only value="" data will go to the database  -->
+<br><br>
+        <select name="" id="">
+    
+            <optgroup label="4 wheelers">
+            <option value="car">car</option>
+            <option value="bus">bus</option>
+            <option value="truck">truck</option>
+     <!-- only value="" data will go to the database  -->
+    </optgroup>
+    <optgroup label="2 wheelers">
+        <option value="bike">bike</option>
+        <option value="cycle">cycle</option>
+        <option value="scooty">scooty</option>
+ <!-- only value="" data will go to the database  -->
+</optgroup>
+        </select>
+        <br><br>
+
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+
+        <br>
+        <input type="submit" value="submit">    <input type="reset">
+       
+    </form>
+</div>
+
+
+</body>
+</html>
